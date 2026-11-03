@@ -1,0 +1,7 @@
+(library
+ (name ppx_sorted)
+ (public_name ppx_sorted)
+ (kind ppx_rewriter)
+ (libraries ocaml-compiler-libs.common ocaml_parser.lexer ppx_helpers ppxlib
+   ppxlib.traverse_builtins)
+ (preprocess no_preprocessing))
